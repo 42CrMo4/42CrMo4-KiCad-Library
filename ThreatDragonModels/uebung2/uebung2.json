@@ -76,16 +76,27 @@
               "angle": 0,
               "id": "06085d65-ee55-477b-9c8f-d98c3d7059eb",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "High",
+                  "title": "keine ahnung was das soll",
+                  "type": "Elevation of privilege",
+                  "description": "lkjhlkjhlkj",
+                  "mitigation": "äokäpopöo"
+                }
+              ],
+              "outOfScope": false,
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "actor 2"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
